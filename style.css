@@ -1,0 +1,99 @@
+/* base */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.top {
+    float: right;
+    display: flex;
+    margin: 1rem 1rem 0 0;
+    justify-content: center;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    margin-right: .7rem;
+}
+
+.nav-link li:last-child {
+    margin-right: 2rem;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
+.nav-link li a:hover {
+    text-decoration: underline;
+}
+
+.icon-app {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 2rem;
+    color: #000000;
+}
+
+/* .icon-app:hover {
+    background-color: #000000;
+    background-size: 2rem;
+} */
+
+.user-photo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* google-search-main */
+
+.google-search-main {
+    width: 40%;
+    margin: 0 auto;
+    /* position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%); */
+}
+
+.google-logo {
+    width: 18rem;
+    height: auto;
+}
+
+.search-space {
+    /* width: 200%; */
+    border: 1px solid #c7c7c7;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+

@@ -61,10 +61,6 @@ body {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 /* google-search-main */
@@ -72,28 +68,58 @@ body {
 .google-search-main {
     width: 40%;
     margin: 0 auto;
-    /* position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%); */
 }
 
 .google-logo {
     width: 18rem;
     height: auto;
+    margin: 10% 0 3% 20%;
 }
 
 .search-space {
-    /* width: 200%; */
+    width: 100%;
     border: 1px solid #c7c7c7;
     border-radius: 2rem;
-    -webkit-border-radius: 2rem;
-    -moz-border-radius: 2rem;
-    -ms-border-radius: 2rem;
-    -o-border-radius: 2rem;
 }
 
+.search-space:hover {
+    box-shadow: 0 0 .3rem rgba(0,0,0,0.3) ;
+}
+
+.inner-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+    margin: -.5rem 0 .5rem 1rem;
+}
+
+.mic-icon {
+    font-size: 1.2rem;
+    margin: -.5rem 1rem .5rem 0;
+}
+
+.google-option {
+    width: 62%;
+    margin: 0 auto;
+    /* display: inline-block;
+    margin: 5% 10% 0 10%; */
+}
+
+.google-option p {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.google-search {
+    margin-right: 2rem;
+    background-color: #c7c7c7;
+    padding: .5rem 1rem;
+}
+
+.feeling {
+    background-color: #c7c7c7;
+    padding: .5rem 1rem;
+}

@@ -206,6 +206,7 @@ body {
 
 .footer-center {
     display: flex;
+    margin-left: -12rem;
 }
 
 .footer-9ja {
